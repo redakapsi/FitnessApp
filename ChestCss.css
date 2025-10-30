@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif,monospace;
+}
+body{
+    height: 100vh;
+    position: relative;
+    background-image: url('2151148973.jpg');
+    
+    
+}
+nav{
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: rgba(0, 0, 0, 0.895);
+    padding: 10px;
+    box-shadow: 4px 3px 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+nav h1{
+    color: white;
+    letter-spacing: 1px;
+    border-right: 10px solid rgb(211, 5, 5);padding: 10px;
+}
+nav h1 span{
+    color: red;
+    font-size: 45px;
+    text-shadow: 3px 3px 4px black;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-shadow: 3px 4px 4px black;
+    transition: all .3s ease;
+}
+nav a:hover{
+    color: red;
+    box-shadow: 3px 4px 6px black;
+    font-size: 40px;
+    border-radius: 4px;
+    padding: 4px;
+}
+.sidecon{
+    position: fixed;
+    margin-top:90px ;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(12, 12, 12);
+    width: 14%;
+    height: 100vh;
+    box-shadow: 4px 5px 4px ;
+}
+.sidecon a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    transition: all .4s ease;
+
+}
+a:hover{
+    box-shadow: 5px 4px 5px red;
+    padding: 10px;
+    
+}
+.screen{
+    width: 100%;
+    display: flex;
+    background-color: rgba(15, 15, 15, 0.939);
+    
+}
+.content{
+    margin-left: 700px;
+    margin-top: 300px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 14px;
+    width: 700px;
+}
+.content video{
+    width: 300px;
+    margin: 10px;
+}
+.home{
+    position: absolute;
+    right:50%;
+    top: 50%;
+}
+.title{
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;flex-direction: column;
+    width: 1000px;
+    align-items: center;
+    margin-bottom: 30px;
+    color: white;
+    margin-right:100px ;
+    margin-top:0;
+    text-shadow: 4px 5px 4px black;
+}
+.title span{
+    color:red;
+    font-size: 80px;
+}

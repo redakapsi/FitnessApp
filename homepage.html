@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <h1>Gym<span>App</span></h1>
+        <div class="links">
+            <a href="javascript:void(0)" id="home">HOME</a>
+            <a href="javascript:void(0)" id="workout">WORKOUT</a>
+            <a href="javascript:void(0)" id="stat">STATS</a>
+            <a href="javascript:void(0)" id="muscle">MUSCLES</a>
+            <a href="javascript:void(0)" id="about">ABOUT US</a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="hero">
+        <div class="hero-text">
+            <h2 id="title">Get Strong. Stay Healthy.</h2>
+            <button id="getStarted">Get Started</button>
+        </div>
+        <dialog id="dialog">
+            <div class="con">
+                            <butto id="cancel">❌</button>
+            </div>
+            <h1>Your Data</h1>
+            <div class="name">
+                <label >Name<input type="text" placeholder="Enter your name" id="name" required></label>
+                <label >Last name<input type="text" placeholder="Enter your Last name" id="lastName" required></label>
+            </div>
+            <div class="Data">
+                <label >Height<input type="number" placeholder="Enter your height in Cm" id="hieght" required></label>
+                <label >Weight<input type="number" placeholder="Enter your weight in Kg" id="weight"required></label>
+                <label >BodyFAT<input type="number" placeholder="Enter your BodyFat in %" id="BodyFat" required></label>
+            </div>
+            <button type="submit" id="SubmitDate">Submit</button>
+        </dialog>
+    </header>
+
+    <!-- WORKOUTS SECTION -->
+    <section class="workouts">
+        <h1>Work<span>Outs</span></h1>
+        <div class="wokrs">
+           <a href="chest.html"><img href="chest.html" src="img.info/Trainest-Exercise-Muscle-Group_Chest.webp" alt="Chest Workout"></a>
+        <a href="back.html"><img src="img.info/Trainest-Exercise-Muscle-Group_Back.webp" alt="Back Workout"></a> 
+            <a href="legs.html"><img src="img.info/Trainest-Exercise-Muscle-Group_Calves.webp" alt="Leg Workout"></a>
+           <a href="arms.html"><img src="img.info/Trainest-Exercise-Muscle-Group_Biceps.webp" alt="Arm Workout"></a>
+            <a href="abs.html"><img src="img.info/Trainest-Exercise-Muscle-Group_Core.webp" alt="Abs Workout"></a>
+            <a href="shoulders.html"><img src="img.info/Trainest-Exercise-Muscle-Group_Shoulders.webp" alt="Shoulder Workout"></a>
+        </div>
+    </section>
+    <section class="yourStats">
+    <h1>My <span>Progress</span></h1>
+    <div class="stat">
+        <h2>Workout Completion</h2>
+        <div class="bar" id="wbar"></div>
+        <h2 id="wiar">[❌]</h2>
+    </div>
+    <div class="stat">
+    <h2>Caloris Goal 🍎</h2>
+    <div class="bar" id="calop"></div>
+    <h2 id="calobar">2200/2600</h2>
+    </div>
+    <div class="stat">
+    <h2>Sleep Progress💤</h2>
+    <div class="bar" id="sleepp"></div>
+    <h2 id="sleepbar">5/9</h2>
+    </div>
+ <div class="meals">
+    <Button id="Goal">Today's Goal</Button>
+ </div>
+    <dialog id="dgoal">
+        <label >Workout Completion<input type="checkbox" id="gymW"></label>
+        <label >Caloris Goal<input type="number" min="0" max="3000" id="calo"></label>
+        <label >Sleep Progress<input type="number" min="0" max="10"id="sleep"></label>
+        <button type="submit" id="stbtn"> Submit</button>
+    </dialog>
+    </section>
+    <section class="calories">
+        <div class="stats">
+            <h1>Height</h1>
+            <h2 id="toheight">180cm</h2>
+        </div>
+        <div class="stats">
+            <h1 >Weight</h1>
+            <h2 id="toweight">66Kg</h2>
+        </div>
+        <div class="stats">
+            <h1>BodyFat</h1>
+            <h2 id="tofat">17%</h2>
+        </div>
+    </section>
+    <section class="muscles">
+        <h1>Muscles<span>Informations</span></h1>
+<div class="info">
+<img src="img.info/Trainest-Exercise-Muscle-Group_Chest.webp" alt="">
+<p>Your chest is mainly made of two muscles — the pectoralis major and pectoralis minor. The major muscle has three parts:
+upper, middle, and lower. To build a full, wide chest, you must train all angles.
+
+Upper chest: incline bench or incline dumbbell press.
+
+Middle chest: flat bench press or push-ups.
+
+Lower chest: decline press or dips.
+
+For growth, lift heavy but controlled, aiming for 8–12 reps per set. Focus on the mind–muscle connection — feel the
+chest contract every rep. Train 2 times a week, giving it 2–3 days to recover between sessions.
+
+Eat enough protein (1.6–2.2g per kg body weight) and sleep 7–9 hours to let your muscles rebuild. Use progressive
+overload — slowly increase weight or reps. For the outer chest, use wide-grip presses; for the inner chest, use
+close-grip or cable crossovers.
+
+Stay consistent, train with good form, rest well, and your chest will grow fuller, stronger, and more balanced.</p>
+</div>
+<div class="info">
+<img src="img.info/Trainest-Exercise-Muscle-Group_Back.webp" alt="">
+<p>Your chest is mainly made of two muscles — the pectoralis major and pectoralis minor. The major muscle has three parts:
+upper, middle, and lower. To build a full, wide chest, you must train all angles.
+
+Upper chest: incline bench or incline dumbbell press.
+
+Middle chest: flat bench press or push-ups.
+
+Lower chest: decline press or dips.
+
+For growth, lift heavy but controlled, aiming for 8–12 reps per set. Focus on the mind–muscle connection — feel the
+chest contract every rep. Train 2 times a week, giving it 2–3 days to recover between sessions.
+
+Eat enough protein (1.6–2.2g per kg body weight) and sleep 7–9 hours to let your muscles rebuild. Use progressive
+overload — slowly increase weight or reps. For the outer chest, use wide-grip presses; for the inner chest, use
+close-grip or cable crossovers.
+
+Stay consistent, train with good form, rest well, and your chest will grow fuller, stronger, and more balanced.</p>
+</div>
+<div class="info">
+<img src="img.info/Trainest-Exercise-Muscle-Group_Biceps.webp" alt="">
+<p>The biceps (front) flex your arm, while the triceps (back) make up most of your arm’s size. The forearms support grip
+and shape.
+For biceps, do barbell curls, dumbbell curls, and hammer curls. For triceps, hit skull crushers, close-grip bench press,
+and pushdowns. For forearms, do wrist curls and farmer’s holds.
+Train arms 2 times a week, with 2–3 exercises for each side. Focus on form, squeeze, and slow control. Rest 48 hours
+before hitting them again. Eat well, sleep enough, and your arms will grow full and defined</p>
+</div>
+<div class="info">
+<img src="img.info/Trainest-Exercise-Muscle-Group_Calves.webp" alt="">
+<p>Your legs are made of the quadriceps (front thighs), hamstrings (back thighs), glutes (butt), and calves. To grow them,
+focus on compound lifts like squats, lunges, leg press, and deadlifts. For detail and shape, add leg extensions, leg
+curls, and calf raises.
+Train legs 1–2 times a week, 3–5 exercises, 8–12 reps per set. Rest 2–3 days between sessions — legs need recovery since
+they’re large muscles.
+Eat plenty of carbs and protein, and don’t skip leg day — it builds power, balance, and releases growth hormones that
+help your whole body grow.</p>
+</div>
+<div class="info">
+<img src="img.info/Trainest-Exercise-Muscle-Group_Core.webp" alt="">
+<p>Your abs include the rectus abdominis (six-pack), obliques (sides), and transverse abdominis (deep core).
+To build strong, visible abs, mix resistance work (weighted sit-ups, hanging leg raises, cable crunches) with bodyweight
+moves (planks, mountain climbers).
+Train abs 3–4 times a week, and keep your diet clean — abs are revealed by low body fat. Recovery is fast; they heal
+within 24 hours, so you can train them often.
+Don’t forget: abs are made in the gym and the kitchen 🍎</p>
+</div>
+<div class="info">
+<img src="img.info/Trainest-Exercise-Muscle-Group_Shoulders.webp" alt="">
+<p>Your shoulders have three heads — front (anterior), side (lateral), and rear (posterior).
+To make them round and big, hit all angles: overhead press for front, lateral raises for side width, and rear delt flyes
+for back detail. Add upright rows for extra volume.
+Train shoulders 1–2 times a week with 3–4 exercises. Keep form strict to protect joints, and rest 48–72 hours before
+hitting them again.
+
+Eat enough protein, stay consistent, and you’ll get that wide, capped-shoulder look that makes your chest and arms pop.
+🔥</p>
+</div>
+
+    </section>
+    <section class="about">
+        <h1>About <span>Us</span></h1>
+        <p>
+            At <b>GymsApp</b>, we believe fitness is more than just lifting weights — it's a lifestyle.
+            Our mission is to guide you toward your strongest, healthiest self through smart workouts,
+            clear plans, and motivation that never fades.
+        </p>
+    </section>
+<div class="creator">
+    <img src="Weixin Image_20250626231809.jpg" alt="Creator Reda">
+    <h2>Created by <span>Reda Shimdate</span></h2>
+    <p>Software Engineering student & fitness enthusiast, passionate about combining coding and health.</p>
+    <div class="socials">
+        <a href="https://github.com/redakapsi" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/RedaShimdate" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:redashimdate7@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+    </div>
+    <button class="join-btn">Join the Journey</button>
+
+</div>
+
+
+    <script src="script.js" ></script>
+</body>
+
+</html>
